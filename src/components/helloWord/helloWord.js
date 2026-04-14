@@ -17,7 +17,7 @@ class MyCustomElement extends HTMLElement {
         color: #ffffff;
         }
      </style>
-     <h1> Hello Word</h1>
+     <h1> Hello World</h1>
      <p> <slot></slot> <p>
      
     `
@@ -42,4 +42,4 @@ class MyCustomElement extends HTMLElement {
     }
 }
 
-customElements.define("hello-word-element", MyCustomElement);
+customElements.define("hello-world-element", MyCustomElement);
