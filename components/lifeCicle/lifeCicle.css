@@ -1,0 +1,6 @@
+hello-word-element {
+  border: dashed red;
+}
+hello-word-element:state(hidden) {
+  border: none;
+}
