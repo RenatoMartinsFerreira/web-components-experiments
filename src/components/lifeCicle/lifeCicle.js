@@ -1,13 +1,9 @@
-// Create a class for the element
 class Circle extends HTMLElement {
-  // Specify observed attributes so that
-  // attributeChangedCallback will work
   static get observedAttributes() {
     return ["color", "size"];
   }
 
   constructor() {
-    // Always call super first in constructor
     super();
 
     const shadow = this.attachShadow({ mode: "open" });

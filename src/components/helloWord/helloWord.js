@@ -2,7 +2,6 @@ class MyCustomElement extends HTMLElement {
     static observedAttributes = ["color", "size"];
 
     constructor() {
-        // Always call super first in constructor
         super();
         this.shadow = this.attachShadow({ mode: 'open' })
     }

@@ -11,7 +11,6 @@ function random(min, max) {
 }
 
 add.onclick = function () {
-  // Create a custom circle element
   circle = document.createElement("custom-circle");
   circle.setAttribute("size", "100");
   circle.setAttribute("color", "red");
@@ -23,7 +22,6 @@ add.onclick = function () {
 };
 
 update.onclick = function () {
-  // Randomly update circle's attributes
   circle.setAttribute("size", random(50, 200));
   circle.setAttribute(
     "color",
@@ -32,7 +30,6 @@ update.onclick = function () {
 };
 
 remove.onclick = function () {
-  // Remove the circle
   document.body.removeChild(circle);
 
   update.disabled = true;
